@@ -19,13 +19,9 @@ fun occurance(x:String,y:String,w:String,z:String,o:String,){
 }
 //Write and invoke one function that takes in an array of integers and returns
 //these 3 values: sum, count and average of all the elements.
-fun sum(num:Int,num1:Int,num2:Int):Array<Int> {
-    var calculation: Array<Int> = arrayOf(num, num1, num2)
-    var add: Array<Int> = arrayOf(num + num1 + num2)
-
-    fun sum(num: Int, num1: Int, num2: Int): Int {
-        var b: Array<Int> = arrayOf(num, num1, num2)
-        var c = num1 + num2 + num2
+        fun sum(num: Int, num1: Int, num2: Int): Int {
+        var b=arrayOf(33, 66, 34)
+        var c = b[1] +b[2] +b[3]
         return c
     }
 
@@ -39,21 +35,17 @@ fun sum(num:Int,num1:Int,num2:Int):Array<Int> {
 //volume of any sphere given its radius. Use 3.14159 as π
 
 
-
-
-
-
-
 //    A palindrome is a string that reads the same forwards and backwards e.g
 //    madam, wow, kayak. Write and invoke a function:
 //    isPalindrome(word: String): Boolean
 //    that takes in a single word and returns true or false depending on whether the
 //    word is a palindrome.
 
-}
-    fun palindrome(a:String,b:String,c:String) {
-    var change: Array<String> = arrayOf(a,b,c)
-    println(change.contentToString())
+
+    fun palindrome(a: String, b: String, c: String) {
+        var change: Array<String> = arrayOf(a, b, c)
+        println(change.contentToString())
+    }
 }
 
 
