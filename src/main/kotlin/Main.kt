@@ -21,7 +21,7 @@ fun occurance(x:String,y:String,w:String,z:String,o:String,){
 //these 3 values: sum, count and average of all the elements.
         fun sum(num: Int, num1: Int, num2: Int): Int {
         var b=arrayOf(33, 66, 34)
-        var c = b[1] +b[2] +b[3]
+        var c = b[0] +b[1] +b[2]
         return c
     }
 
