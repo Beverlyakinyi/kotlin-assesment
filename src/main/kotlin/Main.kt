@@ -51,8 +51,8 @@ fun sum(num:Int,num1:Int,num2:Int):Array<Int> {
 //    word is a palindrome.
 
 }
-    fun palindrome(a:String,b:String,c:String,d:String,e:String) {
-    var change: Array<String> = arrayOf(a,b,c,d, e,)
+    fun palindrome(a:String,b:String,c:String) {
+    var change: Array<String> = arrayOf(a,b,c)
     println(change.contentToString())
 }
 
